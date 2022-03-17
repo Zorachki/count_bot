@@ -4,9 +4,9 @@ import time
 from threading import Thread
 
 ### Input data (token, participants, reset time)
-bot = telebot.TeleBot('1373754699:AAE2ZCO8kiUQ7ZT3XQqWxzSBNsqkwFg82Os')
-employees = ['Zorachki', 'lesja_hick', 'frolkin_test',]
-reset_time = "22:10"    # in HH:MM(:SS) format
+bot = telebot.TeleBot('<token>')
+employees = ['nickname1', 'nickname2', 'nickname3',]
+reset_time = "08:00"    # in HH:MM(:SS) format
 
 sleeping_list = employees[:]
 woke_up_list = []
